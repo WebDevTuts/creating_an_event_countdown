@@ -66,3 +66,36 @@ body { margin: 0; padding: 0; background-color: #092f6e; color: #fff; }
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+@media screen and (max-width: 525px) {
+
+  #world-premiere {
+    font-size: 12px;
+    width: 300px;
+    min-height: 465px;
+    -webkit-background-size: 400px auto;
+    background-size: 400px auto;
+  }
+
+  #world-premiere .heading {
+    padding: 12px 0 8px 0;
+    margin-bottom: 20px;
+  }
+
+  #world-premiere h1 {
+    line-height: 40px;
+    font-size: 3.7em;
+  }
+
+  #world-premiere h2 {
+    line-height: 22px;
+    letter-spacing: 5px;
+  }
+
+  #world-premiere .my-countdown .countdown-section {
+    width: 68px;
+  }
+
+}
+
+}
